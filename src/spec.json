@@ -1,0 +1,178 @@
+{
+  "title": "Gestione pratiche dello sportello",
+  "description": "Prototipo navigabile per consultare le pratiche, filtrare per stato e scadenza e registrare nuove richieste con dati di fantasia.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "cruscotto",
+      "title": "Cruscotto",
+      "description": "Panoramica delle pratiche aperte e delle scadenze imminenti; i riepiloghi conducono all’elenco filtrato.",
+      "metrics": [
+        {
+          "label": "Pratiche aperte",
+          "value": "18"
+        },
+        {
+          "label": "In attesa di verifica",
+          "value": "6"
+        },
+        {
+          "label": "In lavorazione",
+          "value": "8"
+        },
+        {
+          "label": "In attesa di riscontro",
+          "value": "4"
+        },
+        {
+          "label": "Scadono entro 7 giorni",
+          "value": "5"
+        },
+        {
+          "label": "Chiuse questo mese",
+          "value": "12"
+        }
+      ],
+      "columns": [
+        "Codice pratica",
+        "Richiedente",
+        "Oggetto",
+        "Stato",
+        "Data di apertura",
+        "Scadenza"
+      ],
+      "rows": [
+        [
+          "PR-051-01",
+          "Lumo",
+          "Rilascio attestazione",
+          "In lavorazione",
+          "2026-05-04",
+          "2026-05-28"
+        ],
+        [
+          "PR-051-02",
+          "Vela",
+          "Aggiornamento recapito",
+          "In attesa di verifica",
+          "2026-05-06",
+          "2026-05-27"
+        ],
+        [
+          "PR-051-03",
+          "Nubi",
+          "Richiesta accesso atti",
+          "In attesa di riscontro",
+          "2026-05-08",
+          "2026-05-29"
+        ],
+        [
+          "PR-051-04",
+          "Brina",
+          "Iscrizione servizio",
+          "In lavorazione",
+          "2026-05-10",
+          "2026-05-30"
+        ],
+        [
+          "PR-051-05",
+          "Timo",
+          "Rilascio attestazione",
+          "In attesa di verifica",
+          "2026-05-12",
+          "2026-05-25"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "elenco-pratiche",
+      "title": "Elenco pratiche",
+      "description": "Consulta e filtra le pratiche per stato e scadenza. La ricerca testuale è separata dal modulo di inserimento.",
+      "metrics": [
+        {
+          "label": "Risultati visibili",
+          "value": "5"
+        },
+        {
+          "label": "Scadute",
+          "value": "1"
+        }
+      ],
+      "columns": [
+        "Codice pratica",
+        "Richiedente",
+        "Oggetto",
+        "Stato",
+        "Data di apertura",
+        "Scadenza"
+      ],
+      "rows": [
+        [
+          "PR-051-01",
+          "Lumo",
+          "Rilascio attestazione",
+          "In lavorazione",
+          "2026-05-04",
+          "2026-05-28"
+        ],
+        [
+          "PR-051-02",
+          "Vela",
+          "Aggiornamento recapito",
+          "In attesa di verifica",
+          "2026-05-06",
+          "2026-05-27"
+        ],
+        [
+          "PR-051-03",
+          "Nubi",
+          "Richiesta accesso atti",
+          "In attesa di riscontro",
+          "2026-05-08",
+          "2026-05-29"
+        ],
+        [
+          "PR-051-04",
+          "Brina",
+          "Iscrizione servizio",
+          "In lavorazione",
+          "2026-05-10",
+          "2026-05-30"
+        ],
+        [
+          "PR-051-05",
+          "Timo",
+          "Rilascio attestazione",
+          "In attesa di verifica",
+          "2026-05-12",
+          "2026-05-25"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-pratica",
+      "title": "Nuova pratica",
+      "description": "Registra una richiesta inventata e assegna stato e scadenza.",
+      "metrics": [],
+      "columns": [
+        "Codice pratica",
+        "Richiedente",
+        "Oggetto",
+        "Stato",
+        "Data di apertura",
+        "Scadenza"
+      ],
+      "rows": [],
+      "form": [
+        "Codice pratica",
+        "Richiedente",
+        "Oggetto",
+        "Stato",
+        "Data di apertura",
+        "Scadenza"
+      ]
+    }
+  ]
+}
